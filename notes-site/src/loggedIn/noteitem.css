@@ -1,0 +1,69 @@
+.noteitem{
+    display: block;
+    margin:auto;
+    color: rgb(87, 183, 221);
+    border: 2px solid rgb(87, 183, 221);
+    background-color: black;
+    height:381px;
+    width:300px;
+    box-shadow:
+  2.8px 1.6px 1.4px rgba(0, 0, 0, 0.056),
+  7.1px 4.2px 3.5px rgba(0, 0, 0, 0.08),
+  14.5px 8.5px 7.1px rgba(0, 0, 0, 0.1),
+  29.9px 17.5px 14.6px rgba(0, 0, 0, 0.124),
+  82px 48px 40px rgba(0, 0, 0, 0.18);
+  padding-top: 10px;
+}
+.noteitem> img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    height:150px;
+    border-radius: 10px;
+}
+.notetitle{
+    height:45px;
+}
+.notetag{
+    height:24px;
+}
+.notedate{
+    height:18px;
+}
+.noteitem>div{
+    margin:0px 10px;
+}
+.notebtn{
+    position: relative;
+    z-index: 3;
+    margin: 10px 118px;
+    background: none;
+    background-color: black;
+    border: 2px solid rgb(87, 183, 221);
+    border-radius: 5px;
+    color: rgb(87, 183, 221);
+    cursor: pointer;
+    transition: all .4s;
+}
+.notebtn:hover{
+    background-color: rgb(41, 40, 40);
+}
+.changes{
+    display: flex;
+    justify-content: space-between;
+}
+.changes >i{
+    position: relative;
+    z-index: 3;
+    color: rgb(87, 183, 221);
+    margin: 5px;
+    cursor: pointer;
+    border:2px solid rgb(87, 183, 221);
+    padding: 4px;
+    border-radius: 10px;
+}
+.noteitem >svg{
+    z-index: 1;
+    position: relative;
+    bottom: 49px;
+}
